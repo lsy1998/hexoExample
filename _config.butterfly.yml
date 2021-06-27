@@ -1,0 +1,366 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 一人喃喃，群山回响
+description: '李商隐的博客'
+keywords:
+author: 李商隐
+language: zh-CN
+timezone: ''
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: http://www.lsy1998.xyz
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: butterfly
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repository: git@github.com:lsy1998/lsy1998.github.io.git
+  branch: master
+
+aplayer:
+  meting: true
+  asset_inject: false
+
+# Inject the css and script (aplayer/meting)
+aplayerInject:
+  enable: true
+  per_page: true
+
+inject:
+  head:
+  bottom:
+    - <div class="aplayer no-destroy" data-id="2482869238" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
+
+error_404:
+  enable: true
+  subtitle: "页面沒有找到"
+  background: 
+
+Home: / || fas fa-home
+Archives: /archives/ || fas fa-archive
+Tags: /tags/ || fas fa-tags
+Categories: /categories/ || fas fa-folder-open
+List||fas fa-list:
+  Music: /music/ || fas fa-music
+  Movie: /movies/ || fas fa-video
+Link: /link/ || fas fa-link
+About: /about/ || fas fa-heart
+
+menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  清单||fa fa-heartbeat:
+    音乐: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    电影: /movies/ || fas fa-video
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
+highlight_theme: darker
+highlight_copy: true
+highlight_shrink: true
+code_word_wrap: true
+
+social:
+  fab fa-github: https://github.com/lsy1998 || Github
+  fas fa-envelope: mailto:1945934866@qq.com || Email
+
+index_post_content:
+  method: 3
+  length: 500
+
+# tag_per_img：
+#   aplayer: https://xxxxxx.png
+#   android: ddddddd.png
+  
+# category_per_img：
+#   隨想: hdhdh.png
+#   推薦: ddjdjdjd.png
+index_img: https://i.loli.net/2021/06/27/UIcd3FTz8EROlXY.jpg
+
+cover:
+  # 是否顯示文章封面
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  # 封面顯示的位置
+  # 三個值可配置 left , right , both
+  position: both
+  # 當沒有設置cover時，默認的封面顯示
+  default_cover: 
+    default_cover:
+      - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
+      - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg2.png
+      - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg3.png
+
+post_meta:
+  page:
+    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_format: relative # date/relative 顯示日期還是相對日期
+    categories: true # true or false 主頁是否顯示分類
+    tags: true # true or false 主頁是否顯示標籤
+    label: true # true or false 顯示描述性文字
+  post:
+    date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
+    date_format: relative # date/relative 顯示日期還是相對日期
+    categories: true # true or false 文章頁是否顯示分類
+    tags: true # true or false 文章頁是否顯示標籤
+    label: true # true or false 顯示描述性文字
+
+post_copyright:
+  enable: true
+  decode: false
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+reward:
+  enable: true
+  QR_code:
+    - img: /img/wechat.png
+      link:
+      text: 微信
+    - img: /img/alipay.jpg
+      link:
+      text: 支付包
+
+toc:
+  enable: true
+  number: true
+  style_simple: true
+
+related_post:
+  enable: true
+  limit: 6 # 顯示推薦文章數目
+  date_type: created # or created or updated 文章日期顯示創建日或者更新日
+
+# Post edit
+# Easily browse and edit blog source code online.
+post_edit:
+  enable: true
+  # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
+  # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
+  url:
+
+avatar:
+  img: /img/12345.jpg
+  effect: false # 頭像會一直轉圈
+
+photofigcaption: true
+
+# copy settings
+# copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
+copy:
+  enable: true
+  copyright:
+    enable: true
+    limit_count: 50
+
+footer:
+  owner:
+    enable: true
+    since: 2021
+
+translate:
+  enable: true
+  # 默認按鈕顯示文字(網站是簡體，應設置為'default: 繁')
+  default: 繁
+  #網站默認語言，1: 繁體中文, 2: 簡體中文
+  defaultEncoding: 2
+  #延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0
+  translateDelay: 0
+  #當文字是簡體時，按鈕顯示的文字
+  msgToTraditionalChinese: "简"
+  #當文字是繁體時，按鈕顯示的文字
+  msgToSimplifiedChinese: "繁"
+
+# dark mode
+darkmode:
+  enable: true
+  # dark mode和 light mode切換按鈕
+  button: true
+  autoChangeMode: false
+
+readmode: true
+change_font_size: true
+
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+runtimeshow:
+  enable: true
+  publish_date: 6/7/2021 00:00:00  
+
+chat_btn: true
+chat_hide_show: true
+
+addThis:
+  enable: true # or false
+  pubid: ra-60d83250dbee0f37
+
+local_search:
+  enable: false
+
+background: url(https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png)
+
+# baidu_analytics: b17378afc444d9e36e27ccfcd54819ee
+
+canvas_ribbon:
+  enable: true
+  size: 150
+  alpha: 0.6
+  zIndex: -1
+  click_to_change: false  #設置是否每次點擊都更換綵帶
+  mobile: false # false 手機端不顯示 true 手機端顯示
+
+# 主頁subtitle
+subtitle:
+  enable: true
+  # 打字效果
+  effect: true
+  # 循環或者只打字一次
+  loop: false
+  # source調用第三方服務
+  # source: false 關閉調用
+  # source: 1  調用搏天api的隨機語錄（簡體） 
+  # source: 2  調用一言網的一句話（簡體） 
+  # source: 3  調用一句網（簡體） 
+  # source: 4  調用今日詩詞（簡體
+  # subtitle 會先顯示 source , 再顯示 sub 的內容
+  source: false
+  # 如果有英文逗號' , ',請使用轉義字元 &#44;
+  # 如果有英文雙引號' " ',請使用轉義字元 &quot;
+  # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
+  # 例如 ”&quotNever put off till tomorrow what you can do today&quot"
+  # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
+  sub:
+    - 今日事&#44;今日毕
+    - Never put off till tomorrow what you can do today
+
+# 加載動畫 Loading Animation
+preloader: true
+
+
+pwa:
+  enable: true
+  manifest: /img/pwa/manifest.json
+  apple_touch_icon: /img/pwa/apple-touch-icon.png
+  favicon_32_32: /img/pwa/32.png
+  favicon_16_16: /img/pwa/16.png
+  mask_icon: /img/pwa/safari-pinned-tab.svg
+
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
+# fancybox http://fancyapps.com/fancybox/3/
+fancybox: true
+
+snackbar:
+  enable: true
+  position: bottom-left
+  bg_light: '#49b1f5' #light mode時彈窗背景
+  bg_dark: '#2d3035' #dark mode時彈窗背景
+
+pjax: 
+  enable: true
+  class: no-destroy
+  exclude:
+    - /music/
+    - /no-pjax/
+
+
+
