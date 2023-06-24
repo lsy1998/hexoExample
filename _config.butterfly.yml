@@ -103,7 +103,7 @@ theme: butterfly
 deploy:
   type: git
   repository: git@github.com:lsy1998/lsy1998.github.io.git ##repository: git@gitee.com:{注册的个人空间地址}/{仓库名}.git
-  branch: main
+  branch: master
 
 aplayer:
   meting: true
@@ -168,18 +168,18 @@ index_post_content:
 #   推薦: ddjdjdjd.png
 index_img: https://i.loli.net/2021/06/27/UIcd3FTz8EROlXY.jpg
 
-cover:
-  # 是否顯示文章封面
-  index_enable: false
-  aside_enable: true
-  archives_enable: true
-  # 封面顯示的位置
-  # 三個值可配置 left , right , both
-  position: both
-  # 當沒有設置cover時，默認的封面顯示
-  default_cover: 
-    default_cover:
-      - https://i.loli.net/2021/06/27/UIcd3FTz8EROlXY.jpg
+# cover:
+#   # 是否顯示文章封面
+#   index_enable: true
+#   aside_enable: true
+#   archives_enable: true
+  # # 封面顯示的位置
+  # # 三個值可配置 left , right , both
+  # position: both
+  # # 當沒有設置cover時，默認的封面顯示
+  # default_cover: 
+  #   default_cover:
+  #     - https://i.loli.net/2021/06/27/UIcd3FTz8EROlXY.jpg
 
 post_meta:
   page:
@@ -292,7 +292,7 @@ local_search:
 
 background: url(https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png)
 
-# baidu_analytics: b17378afc444d9e36e27ccfcd54819ee
+# # baidu_analytics: b17378afc444d9e36e27ccfcd54819ee
 
 canvas_ribbon:
   enable: true
@@ -330,13 +330,13 @@ subtitle:
 preloader: true
 
 
-# pwa:
-#   enable: true
-#   manifest: /img/pwa/manifest.json
-#   apple_touch_icon: /img/pwa/apple-touch-icon.png
-#   favicon_32_32: /img/pwa/32.png
-#   favicon_16_16: /img/pwa/16.png
-#   mask_icon: /img/pwa/safari-pinned-tab.svg
+pwa:
+  enable: true
+  manifest: /img/pwa/manifest.json
+  apple_touch_icon: /img/pwa/apple-touch-icon.png
+  favicon_32_32: /img/pwa/32.png
+  favicon_16_16: /img/pwa/16.png
+  mask_icon: /img/pwa/safari-pinned-tab.svg
 
 wordcount:
   enable: true
@@ -344,7 +344,7 @@ wordcount:
   min2read: true
   total_wordcount: true
 
-# fancybox http://fancyapps.com/fancybox/3/
+# # fancybox http://fancyapps.com/fancybox/3/
 fancybox: true
 
 snackbar:
