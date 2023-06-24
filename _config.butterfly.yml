@@ -170,7 +170,7 @@ index_img: https://i.loli.net/2021/06/27/UIcd3FTz8EROlXY.jpg
 
 cover:
   # 是否顯示文章封面
-  index_enable: true
+  index_enable: false
   aside_enable: true
   archives_enable: true
   # 封面顯示的位置
@@ -179,9 +179,7 @@ cover:
   # 當沒有設置cover時，默認的封面顯示
   default_cover: 
     default_cover:
-      - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
-      - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg2.png
-      - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg3.png
+      - https://i.loli.net/2021/06/27/UIcd3FTz8EROlXY.jpg
 
 post_meta:
   page:
@@ -332,13 +330,13 @@ subtitle:
 preloader: true
 
 
-pwa:
-  enable: true
-  manifest: /img/pwa/manifest.json
-  apple_touch_icon: /img/pwa/apple-touch-icon.png
-  favicon_32_32: /img/pwa/32.png
-  favicon_16_16: /img/pwa/16.png
-  mask_icon: /img/pwa/safari-pinned-tab.svg
+# pwa:
+#   enable: true
+#   manifest: /img/pwa/manifest.json
+#   apple_touch_icon: /img/pwa/apple-touch-icon.png
+#   favicon_32_32: /img/pwa/32.png
+#   favicon_16_16: /img/pwa/16.png
+#   mask_icon: /img/pwa/safari-pinned-tab.svg
 
 wordcount:
   enable: true
