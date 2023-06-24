@@ -168,9 +168,9 @@ index_post_content:
 #   推薦: ddjdjdjd.png
 index_img: https://i.loli.net/2021/06/27/UIcd3FTz8EROlXY.jpg
 
-# cover:
-#   # 是否顯示文章封面
-#   index_enable: true
+cover:
+  # 是否顯示文章封面
+  index_enable: false
 #   aside_enable: true
 #   archives_enable: true
   # # 封面顯示的位置
