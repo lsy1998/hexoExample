@@ -1,4 +1,9 @@
- [![Linux 命令大全](https://www.runoob.com/images/up.gif) Linux 命令大全](https://www.runoob.com/linux/linux-command-manual.html)
+---
+create_date: 2023-06-24 17:14
+title: rm
+---
+
+[![Linux 命令大全](https://www.runoob.com/images/up.gif) Linux 命令大全](https://www.runoob.com/linux/linux-command-manual.html)
 
 Linux rm（英文全拼：remove）命令用于删除一个文件或者目录。
 
@@ -52,5 +57,3 @@ rm  -rf  要删除的文件名或目录
 ```shell
 rm  -rf   test/
 ```
-
-

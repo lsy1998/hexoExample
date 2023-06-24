@@ -1,3 +1,8 @@
+---
+create_date: 2023-06-24 17:14
+title: SVG
+---
+
 ## 什么是SVG
 **SVG（Scalable Vector Graphics）是一种基于 XML 的标记语言，用于描述二维矢量图形**。简单地说，<font color="#76923c">SVG 之于图像就像 HTML 之于文本</font>。顾名思义，与光栅图像（JPG、GIF 和 PNG）不同，SVG 允许您在不损失图像质量的情况下任意放大或缩小矢量图像。
 > -   SVG 指可伸缩矢量图形 (Scalable Vector Graphics)

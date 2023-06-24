@@ -1,3 +1,8 @@
+---
+create_date: 2023-06-24 17:14
+title: align-content,justify-content,align-items,justify-items
+---
+
 ![[Pasted image 20230404194422.png]]
 ## align-items
 

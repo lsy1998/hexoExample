@@ -1,3 +1,8 @@
+---
+create_date: 2023-06-24 17:14
+title: 安装NVChad
+---
+
 ## 前提
 安装neovim最新版本
 ```shell

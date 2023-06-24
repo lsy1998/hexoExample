@@ -1,3 +1,8 @@
+---
+create_date: 2023-06-24 17:14
+title: '@property'
+---
+
 ## 介绍
 @property是一个新增的CSS @规则(CSS at-rule)，它是[CSS Houdini](https://link.zhihu.com/?target=https%3A//developer.mozilla.org/en-US/docs/Web/Guide/Houdini) API的一部分, 它允许开发者显式地定义css自定义属性，并允许进行属性类型检查、设定默认值以及定义该自定义属性是否可以被继承。@property可以直接在样式表中注册自定义属性，无需运行任何JS代码；同时也配备相应的JS语法注册自定义属性。@property自定义属性，是CSS变量(CSS variables)声明变量的升级版本，比CSS变量更加规范和严谨。
 

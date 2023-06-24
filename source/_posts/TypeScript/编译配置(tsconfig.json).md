@@ -1,3 +1,8 @@
+---
+create_date: 2023-06-24 17:14
+title: 编译配置(tsconfig.json)
+---
+
 ## include
 需要编译的文件
 ```js

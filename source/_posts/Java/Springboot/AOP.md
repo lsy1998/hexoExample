@@ -1,3 +1,8 @@
+---
+create_date: 2023-06-24 17:14
+title: AOP
+---
+
 **AOP**为<font color="#4f81bd">Aspect Oriented Programming</font>的缩写，意为：面向切面编程。
 ## 相关概念
 1. **Aspect**（切面）： Aspect 声明类似于 Java 中的类声明，在 Aspect 中会包含着一些 Pointcut 以及相应的 Advice。

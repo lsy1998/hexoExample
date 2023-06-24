@@ -1,3 +1,8 @@
+---
+create_date: 2023-06-24 17:14
+title: hsl()和hsla()
+---
+
 ## hsl()
 **HSL** 即：**色相**（Hue）、**饱和度**（ Saturation ）、**亮度**（ Lightness ）。
 > 色相（H）是色彩的基本属性，就是平常所说的颜色名称，如红色、黄色等。
@@ -23,4 +28,3 @@ hsl(hue, saturation , lightness);
 ```css
 hsla(hue, saturation , lightness ,alpha)
 ```
-
