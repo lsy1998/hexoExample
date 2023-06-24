@@ -1,6 +1,9 @@
 ---
-create_date: 2023-06-24 17:14
+create_date: '2023-06-24 17:14'
 title: AOP
+categories:
+  - Java
+  - Springboot
 ---
 
 **AOP**为<font color="#4f81bd">Aspect Oriented Programming</font>的缩写，意为：面向切面编程。

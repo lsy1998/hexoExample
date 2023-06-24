@@ -1,6 +1,9 @@
 ---
-create_date: 2023-06-24 17:14
+create_date: '2023-06-24 17:14'
 title: valueOf和toString
+categories:
+  - Others
+  - 面试
 ---
 
 console.log()直接打印的话中除了object直接打印、date执行两次toString,其余都toString再用valueOf,

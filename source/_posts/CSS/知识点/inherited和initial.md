@@ -1,6 +1,9 @@
 ---
-create_date: 2023-06-24 17:14
+create_date: '2023-06-24 17:14'
 title: inherited和initial
+categories:
+  - CSS
+  - 知识点
 ---
 
 任何样式都有两种值，一种加 inherited ，一种叫initial

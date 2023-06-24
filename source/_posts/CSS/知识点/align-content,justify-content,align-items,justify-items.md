@@ -1,6 +1,9 @@
 ---
-create_date: 2023-06-24 17:14
-title: align-content,justify-content,align-items,justify-items
+create_date: '2023-06-24 17:14'
+title: 'align-content,justify-content,align-items,justify-items'
+categories:
+  - CSS
+  - 知识点
 ---
 
 ![[Pasted image 20230404194422.png]]

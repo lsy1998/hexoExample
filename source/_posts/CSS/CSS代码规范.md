@@ -1,6 +1,8 @@
 ---
-create_date: 2023-06-24 17:14
+create_date: '2023-06-24 17:14'
 title: CSS代码规范
+categories:
+  - CSS
 ---
 
 ## class 命名

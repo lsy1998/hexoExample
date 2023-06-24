@@ -1,6 +1,8 @@
 ---
-create_date: 2023-06-24 17:14
+create_date: '2023-06-24 17:14'
 title: abstract
+categories:
+  - TypeScript
 ---
 
 #面向对象

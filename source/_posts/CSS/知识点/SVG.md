@@ -1,6 +1,9 @@
 ---
-create_date: 2023-06-24 17:14
+create_date: '2023-06-24 17:14'
 title: SVG
+categories:
+  - CSS
+  - 知识点
 ---
 
 ## 什么是SVG

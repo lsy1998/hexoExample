@@ -1,6 +1,9 @@
 ---
-create_date: 2023-06-24 17:14
+create_date: '2023-06-24 17:14'
 title: new Date()
+categories:
+  - JS
+  - 小知识点
 ---
 
 ![[Pasted image 20230619221916.png]]

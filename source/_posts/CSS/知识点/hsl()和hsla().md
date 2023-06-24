@@ -1,6 +1,9 @@
 ---
-create_date: 2023-06-24 17:14
+create_date: '2023-06-24 17:14'
 title: hsl()和hsla()
+categories:
+  - CSS
+  - 知识点
 ---
 
 ## hsl()

@@ -106,4 +106,8 @@ deploy:
   repository: git@github.com:lsy1998/lsy1998.github.io.git
   branch: master
 
+auto_category:
+  enable: true
+  depth:
+
 

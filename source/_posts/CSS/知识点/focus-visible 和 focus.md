@@ -1,6 +1,9 @@
 ---
-create_date: 2023-06-24 17:14
+create_date: '2023-06-24 17:14'
 title: focus-visible 和 focus
+categories:
+  - CSS
+  - 知识点
 ---
 
 **focus-visible**用于使用键盘获得焦点时显示的样式

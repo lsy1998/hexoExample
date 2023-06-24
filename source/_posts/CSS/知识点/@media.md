@@ -1,6 +1,9 @@
 ---
-create_date: 2023-06-24 17:14
+create_date: '2023-06-24 17:14'
 title: '@media'
+categories:
+  - CSS
+  - 知识点
 ---
 
 **@media** 规则在媒体查询中用于为不同的媒体类型/设备应用不同的样式。

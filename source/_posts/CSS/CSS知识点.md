@@ -1,6 +1,8 @@
 ---
-create_date: 2023-06-24 17:14
+create_date: '2023-06-24 17:14'
 title: CSS知识点
+categories:
+  - CSS
 ---
 
 1. [[SVG]]
