@@ -12,7 +12,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://www.lsy1998.xyz
+url: https://lsy1998.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -153,7 +153,7 @@ code_word_wrap: true
 
 social:
   fab fa-github: https://github.com/lsy1998 || Github
-  fas fa-envelope: mailto:1945934866@qq.com || Email
+  fas fa-envelope: mailto:siyu.long@qq.com || Email
 
 index_post_content:
   method: 3
@@ -206,10 +206,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: /img/wechat.png
+    - img: https://foruda.gitee.com/avatar/1676993386051995312/1867919_longsiyu_1599210190.png
       link:
       text: 微信
-    - img: /img/alipay.jpg
+    - img: https://foruda.gitee.com/avatar/1676993386051995312/1867919_longsiyu_1599210190.png
       link:
       text: 支付包
 
@@ -232,7 +232,7 @@ post_edit:
   url:
 
 avatar:
-  img: /img/12345.jpg
+  img: https://foruda.gitee.com/avatar/1676993386051995312/1867919_longsiyu_1599210190.png
   effect: false # 頭像會一直轉圈
 
 photofigcaption: true
