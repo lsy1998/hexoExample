@@ -102,8 +102,8 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:lsy1998/lsy1998.github.io.git
-  branch: master
+  repository: git@github.com:lsy1998/lsy1998.github.io.git ##repository: git@gitee.com:{注册的个人空间地址}/{仓库名}.git
+  branch: main
 
 aplayer:
   meting: true
@@ -361,6 +361,3 @@ pjax:
   exclude:
     - /music/
     - /no-pjax/
-
-
-
